@@ -1,0 +1,19 @@
+#bart{
+    position: absolute;
+    margin-top: 19%;
+    margin-left: 36%;
+    z-index: -1;
+}
+#eye1{
+    position: absolute;
+    margin-top: 25%;
+    margin-left: 43%;
+    z-index: 1;
+}
+#eye2{
+    position: absolute;
+    width: 17px;
+    margin-top: 24.5%;
+    margin-left: 45%;
+    z-index: 1;
+}
