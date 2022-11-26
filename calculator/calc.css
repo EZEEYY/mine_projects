@@ -1,0 +1,72 @@
+#main{
+    width: 35%;
+    height: 550px;
+    margin: auto;
+    margin-top: 4%;
+    border: 3px solid;
+    border-color: black;
+    padding-top: 0;
+    padding-bottom: 0%;
+    display: flex;
+    flex-flow: column;
+    border-radius: 6px;
+    border-width: 5px;
+
+    
+}
+#screen{
+    background-color:beige;
+    height: 20%;
+}
+#ans{
+    position: relative;
+    background-color:beige;
+    padding-left: 20px;
+    text-align: right;
+    padding-right: 1%;
+}
+#process{
+    padding-left: 1%;
+
+    
+}
+#previous{
+    padding-left: 1%;
+}
+
+#buttons{
+    
+    padding: 2px;
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    height: 80%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+.button{
+    font-size: x-large;
+    cursor: pointer;
+    border-radius: 6px;
+    border-color:aqua;
+}
+.button:hover{
+    color:royalblue
+}
+
+.func{
+    font-size: x-large;
+    cursor: pointer;
+    border-radius: 6px;
+    border-color: aqua;
+}
+.func:hover{
+    color:royalblue
+}
+#creator{
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
